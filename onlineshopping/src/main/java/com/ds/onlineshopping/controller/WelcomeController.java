@@ -19,13 +19,33 @@ public class WelcomeController {
 		return mv;
 	}*/
 	
-	@RequestMapping("/Test")
-	public ModelAndView test(@RequestParam(value="greeting",required=false) String greeting) {
-		if(greeting == null)
-			greeting="Welcome to the online shopping";
+	
+	
+	@RequestMapping(value= { "/", "/home", "/index"})
+	public ModelAndView home() {
 		ModelAndView mv= new ModelAndView("welcome");
-		mv.addObject("welcome",greeting);
+		
+		mv.addObject("title","Home");	
+		mv.addObject("userClickHome", true);
 		return mv;
 	}
+	
+	@RequestMapping("/about")
+	public ModelAndView about() {
+		ModelAndView mv= new ModelAndView("welcome");
+		mv.addObject("title","About Us");
+		mv.addObject("userClickAbout", true);
+		return mv;
+	}
+	
+	@RequestMapping("/contact")
+	public ModelAndView contact() {
+		ModelAndView mv= new ModelAndView("welcome");
+		mv.addObject("title","Contact Us");
+		mv.addObject("userClickContact", true);
+		return mv;
+	}
+
+	
 
 }
