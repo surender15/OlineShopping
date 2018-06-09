@@ -1,0 +1,13 @@
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field categoryDAO in com.ds.onlineshopping.controller.WelcomeController required a bean of type 'com.ds.shoppingbackend.dao.CategoryDAO' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.ds.shoppingbackend.dao.CategoryDAO' in your configuration.
+

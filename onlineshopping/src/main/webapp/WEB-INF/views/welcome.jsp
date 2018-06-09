@@ -2,7 +2,8 @@
 	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
-<c:set var="contextRoot" value="${pageContext.request.contextPath }" />
+<%-- <c:set var="contextRoot" value="${pageContext.request.contextPath }" />
+ --%>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,12 +22,12 @@
 </script>
 <!-- Bootstrap core CSS -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
-
+ 
 
 <!-- Custom styles for this template -->
 <link href="css/myapp.css" rel="stylesheet">
 
-</head>
+</head> 
 
 <body>
 	<div class="wrapper">
