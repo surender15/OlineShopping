@@ -1,4 +1,4 @@
-package com.ds.onlineshopping;
+package com.ds.shoppingbackend;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
