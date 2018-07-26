@@ -4,6 +4,10 @@
 
 <div class="list-group">
 			<c:forEach items="${categories}" var="category">
-			    <a href="#" class="list-group-item">${category.name}</a>
+		<a href="/show/category/${category.id}/products" class="list-group-item">${category.name}</a>
+			  
+			 
+			<%--  <a href="/test/test/${category.id}" class="list-group-item">${category.name}</a>
+		 --%>
 			</c:forEach>
 </div>
