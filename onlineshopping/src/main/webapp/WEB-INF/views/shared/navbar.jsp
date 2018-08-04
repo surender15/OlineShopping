@@ -21,10 +21,12 @@
               <a class="nav-link" href="/contact">Contact</a>
             </li>
             
-<!--              Testing
-             <li class="nav-item" id="test">
-              <a class="nav-link" href="/test/test">View Products</a>
-            </li> -->
+           <li class="nav-item" id="manageProduct">
+              <a class="nav-link" href="/manage/products">Manage Products</a>
+            </li>
+  
+
+
             
           </ul>
         </div>

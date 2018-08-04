@@ -79,6 +79,9 @@ ul.breadcrumb li a:hover {
 
 .viewImg{
 	height:200px;
-	width:200px;
+}
+
+.help-block{
+	color:Red;
 }
 
